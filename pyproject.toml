@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "app6-weather-api"
+version = "0.1.0"
+description = "Simple app with API and interface for getting weather"
+authors = ["ikari2k <pluta.m@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
